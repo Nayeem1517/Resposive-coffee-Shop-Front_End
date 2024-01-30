@@ -113,7 +113,57 @@ main {
     font-size: 18px;
     font-weight: 400;
     line-height: 20px;
-    
+
+}
+
+/* Services Related styles */
+.mon-mane-na {
+    color: #432010;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 500;
+}
+
+.service-description {
+    color: #432010;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.service-more {
+    margin-left: 90px;
+    display: grid;
+    padding: 50px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 68px;
+    margin-top: 64px;
+    justify-content: space-evenly;
+}
+
+.aamir {
+    height: 69px;
+    margin-left: 150px;
+   
+}
+
+.ghuri {
+    color: #432010;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.ghuri-description {
+    color: #432010;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+.ispat{
+    justify-content: center;
+    align-items: center;
+    padding: 38px 47px;
 }
 
 
@@ -122,22 +172,25 @@ main {
 
 
 
-
-
-
-
 @media screen and (max-width:576px) {
-    .nav-bar{
+    .nav-bar {
         flex-direction: column;
         gap: 20px;
         padding: 20px;
     }
-    .banner-container{
+
+    .banner-container {
         flex-direction: column;
         margin-top: 300px;
         padding: 20px;
     }
-    .nav-elements{
+
+    .nav-elements {
         flex-direction: column;
+    }
+    .service-more{
+        grid-template-columns: repeat(1,1fr);
+        margin-left: 50px;
+        padding: 20px;
     }
 }
