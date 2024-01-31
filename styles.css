@@ -194,19 +194,70 @@ main {
 
 }
 
-.romance{
-   margin-left: 95px;
-   margin-bottom: 10px;
+.romance {
+    margin-left: 95px;
+    margin-bottom: 10px;
 }
-.items{
+
+.items {
     margin-left: 150px;
     margin-top: 20px;
     padding: 25px;
     align-items: center;
     justify-content: center;
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
 }
+
+.message {
+    color: #432010;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.customer-name {
+    color: #432010;
+    font-size: 30px;
+    font-weight: 700;
+}
+.customer-review{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+    gap: 50px;
+}
+.customer-img{
+    border: 5px;
+    border-radius: 30px;
+    
+}
+.customer-img img {
+    align-items: center;
+    justify-content: center;
+}
+
+.customer-img-me{
+    width: 350px;
+    height: 450px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+}
+.sun{
+    display: flex;
+    flex-direction: row-reverse;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+    gap: 450px;
+}
+
+
+
+
 
 
 
@@ -228,9 +279,14 @@ main {
         flex-direction: column;
     }
 
-    .service-more , .items {
+    .service-more,
+    .items {
         grid-template-columns: repeat(1, 1fr);
         margin-left: 50px;
         padding: 20px;
+    }
+    .customer-review , .sun{
+        flex-direction: column;
+        gap: 50px;
     }
 }
