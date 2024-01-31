@@ -221,31 +221,35 @@ main {
     font-size: 30px;
     font-weight: 700;
 }
-.customer-review{
+
+.customer-review {
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 50px;
     gap: 50px;
 }
-.customer-img{
+
+.customer-img {
     border: 5px;
     border-radius: 30px;
-    
+
 }
+
 .customer-img img {
     align-items: center;
     justify-content: center;
 }
 
-.customer-img-me{
+.customer-img-me {
     width: 350px;
     height: 450px;
     align-items: center;
     justify-content: center;
     border-radius: 30px;
 }
-.sun{
+
+.sun {
     display: flex;
     flex-direction: row-reverse;
     display: flex;
@@ -255,10 +259,45 @@ main {
     gap: 450px;
 }
 
+.footer-img img {
+    width: 100%;
+    height: 350px;
+}
 
+.footer-img {
+    padding: 20px;
+}
 
+.footer-about {
+    background: #1B0B04;
+    height: 340px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+}
 
-
+.petu {
+    color: #FFF;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.kaw{
+    color: #FFF;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+margin-left: 15px;
+}
+.warning{
+    color: red;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+}
 
 
 
@@ -285,8 +324,14 @@ main {
         margin-left: 50px;
         padding: 20px;
     }
-    .customer-review , .sun{
+
+    .customer-review,
+    .sun {
         flex-direction: column;
         gap: 50px;
+    }
+    .footer{
+        border-radius: 5px;
+        padding: 10px;
     }
 }
